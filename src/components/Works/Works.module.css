@@ -1,0 +1,16 @@
+.worksBlock{
+    background-color: lightpink;
+    height: 100vh;
+}
+.workContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.worksItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}

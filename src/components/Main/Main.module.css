@@ -1,0 +1,17 @@
+.wrapper{
+    background-color: hotpink;
+    height: 100vh;
+}
+
+.description{
+    width: 300px;
+    background-color: darkgray;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+.avatar {
+    background-color: darkgray;
+    width: 300px;
+    height: 200px;
+}

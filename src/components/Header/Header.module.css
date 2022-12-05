@@ -1,0 +1,15 @@
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: deepskyblue;
+}
+
+.nav {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-right: 50px;
+    border: 1px solid black;
+}
