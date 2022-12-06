@@ -1,4 +1,4 @@
-.wrapper{
+.mainBlock{
     background-color: hotpink;
     height: 100vh;
 }
@@ -14,4 +14,9 @@
     background-color: darkgray;
     width: 300px;
     height: 200px;
+}
+@media screen and (max-width: 360px) and (max-width: 760px){
+    .mainBlock{
+        height: 400px;
+    }
 }

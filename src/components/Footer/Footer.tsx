@@ -12,8 +12,7 @@ const Footer = () => {
                     <div className={s.footerSocialItems}></div>
                     <div className={s.footerSocialItems}></div>
                     <div className={s.footerSocialItems}></div>
-                    <div className={s.footerSocialItems}></div>
-                    <div className={s.footerSocialItems}></div>
+
                 </div>
                 <div>&#169;2022 All rights reserved</div>
             </div>

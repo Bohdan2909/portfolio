@@ -4,9 +4,8 @@ import styleContainer from './../../common/styles/Container.module.css'
 
 const Main = () => {
     return (
-        <div className={style.wrapper}>
+        <div className={style.mainBlock}>
             <div className={styleContainer.container}>
-
                   <div className={style.description}>
                       <p>Hello!</p>
                       <p>My name is Bohdan Atamaniuk</p>

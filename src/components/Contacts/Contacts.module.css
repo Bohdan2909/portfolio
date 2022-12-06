@@ -19,6 +19,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -37,7 +38,7 @@
     resize: none;
     margin-bottom: 5px;
     padding: 5px;
-    width: 400px;
+    width: 200px;
     border: none;
 }
 
@@ -46,15 +47,34 @@
     background-color: dimgray;
     border: none;
     padding: 5px;
-    width: 400px;
+    width: 200px;
     height: 20px;
 }
 
 .contactsWrapperForm button {
-    width: 200px;
+    width: 100px;
     height: 30px;
     background-color: dimgray;
     border: none;
     cursor: pointer;
 
+}
+@media screen and (max-width: 435px){
+    .contactsTextarea{
+        width: 80px;
+    }
+    .contactsForm input{
+        width: 80px;
+        height: 10px;
+    }
+    .contactsWrapperForm button{
+        width: 50px;
+        height: 20px;
+    }
+}
+@media screen and (max-width: 360px){
+
+    .contactsBlock{
+        height: 300px;
+    }
 }
