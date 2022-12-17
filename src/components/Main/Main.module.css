@@ -1,6 +1,7 @@
 .mainBlock{
     background-color: hotpink;
-    height: 100vh;
+    min-height: 60vh;
+    padding: 30px 0;
 }
 
 .description{
@@ -9,6 +10,8 @@
     font-size: 16px;
     line-height: 16px;
     text-align: center;
+    padding: 10px;
+    margin: 10px 0;
 }
 .avatar {
     background-color: darkgray;
