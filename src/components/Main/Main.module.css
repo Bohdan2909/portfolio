@@ -1,25 +1,73 @@
-.mainBlock{
-    background-color: hotpink;
+.mainBlock {
+    background-color: #000000;
     min-height: 60vh;
     padding: 30px 0;
 }
 
-.description{
+.description {
     width: 300px;
-    background-color: darkgray;
+    /*background-color: darkgray;*/
     font-size: 16px;
     line-height: 16px;
     text-align: center;
     padding: 10px;
     margin: 10px 0;
 }
-.avatar {
-    background-color: darkgray;
-    width: 300px;
-    height: 200px;
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color:#a2a2a2
 }
-@media screen and (max-width: 360px) and (max-width: 760px){
-    .mainBlock{
+
+.name span {
+    color: #fa5b0f;
+}
+.react{
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#a2a2a2;
+    margin-bottom: 25px;
+
+}
+.react span{
+    /*color: #fff;*/
+    color: #fa5b0f;
+
+}
+
+
+.avatar img {
+    background-color: darkgray;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    /*border-radius:50px;*/
+}
+.btnMore{
+    width: 165px;
+    height: 41px;
+    border-radius: 50px;
+    text-align: center;
+    background: #fa5b0f;
+    padding: 8px 40px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    transition: all .6s ease;
+    cursor: pointer;
+}
+
+
+.btnMore:hover{
+    background: #fff;
+    color:#000
+}
+
+@media screen and (max-width: 360px) and (max-width: 760px) {
+    .mainBlock {
         height: 400px;
     }
 }

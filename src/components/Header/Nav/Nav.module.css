@@ -4,3 +4,20 @@
     justify-content: space-between;
     border: 1px solid black;
 }
+.nav a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    transition: all .3s;
+
+
+
+
+}
+.nav a:hover{
+    color: #fa5b0f;
+    /*border-bottom: 1px solid #fa5b0f;*/
+
+
+}
+
