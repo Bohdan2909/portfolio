@@ -10,9 +10,9 @@ const Contacts = () => {
               <Title titleOne={'Contacts'} titleTwo={'me'} />
               <div className={s.contactsWrapperForm}>
                   <form className={s.contactsForm}>
-                      <input />
-                      <input />
-                      <textarea className={s.contactsTextarea} name="contacts" rows={4} cols={5}/>
+                      <input type={"text"} placeholder={'Your email...'}/>
+                      <input type={"text"} placeholder={'Your name...'}/>
+                      <textarea placeholder={'Please write your text...'} className={s.contactsTextarea} name="contacts" rows={4} cols={5}/>
                       <button className={s.buttonSubmit} type={'submit'}>Send</button>
                   </form>
               </div>

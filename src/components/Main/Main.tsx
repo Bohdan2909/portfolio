@@ -6,7 +6,7 @@ import avatar from './../../assets/avatar.jpeg'
 const Main = () => {
     return (
         <div className={style.mainBlock}>
-            <div className={styleContainer.container}>
+            <div className={`${styleContainer.container} ${style.wrapper}`}>
                   <div className={style.description}>
                       {/*<p>Hello!</p>*/}
                       <p className={style.name}>BOHDAN <span>ATAMANIUK</span></p>

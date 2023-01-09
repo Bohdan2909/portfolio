@@ -1,12 +1,14 @@
 .mainBlock {
-    background-color: #000000;
+    background-color: #222;
     min-height: 60vh;
     padding: 30px 0;
+}
+.wrapper{
+    margin-top: 70px;
 }
 
 .description {
     width: 300px;
-    /*background-color: darkgray;*/
     font-size: 16px;
     line-height: 16px;
     text-align: center;
@@ -68,6 +70,9 @@
 
 @media screen and (max-width: 360px) and (max-width: 760px) {
     .mainBlock {
-        height: 400px;
+        height: 440px;
+    }
+    .wrapper{
+        margin-top: 10px;
     }
 }

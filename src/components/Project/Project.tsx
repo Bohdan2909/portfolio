@@ -1,13 +1,16 @@
 import s from '../Project/Project.module.css';
 import React from 'react';
-
-const Project = () => {
+type ProjectPropsType = {
+    style: any
+    projectName:string
+}
+const Project = (props:ProjectPropsType) => {
     return (
         <div className={s.worksItem}>
-            <div className={s.workImg}>
-                <button className={s.workBtn}>Watch</button>
+            <div className={s.workImg} style={props.style}>
+                <a href={'#'} className={s.workBtn}>Watch</a>
             </div>
-            <h3>Name of project</h3>
+            <h3>{props.projectName}</h3>
             <div className={s.workDesc}>About of project</div>
         </div>
     );
