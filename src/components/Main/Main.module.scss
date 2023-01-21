@@ -1,5 +1,7 @@
+@import '../../common/sass/variables';
+@import '../../common/sass/mixins';
 .mainBlock {
-  background-color: #222;
+  background-color: $colorMainBg;
   min-height: 60vh;
   padding: 30px 0;
   @media screen and (max-width: 360px) and (max-width: 760px) {
@@ -13,32 +15,33 @@
     }
     .description {
       width: 300px;
-      font-size: 16px;
-      line-height: 16px;
-      text-align: center;
+      //font-size: 16px;
+      //line-height: 16px;
+      //text-align: center;
       padding: 10px;
       margin: 10px 0;
+      @include text (16px,16px,center);
 
       .name {
         font-size: 20px;
         font-weight: 700;
         margin-bottom: 25px;
         text-transform: uppercase;
-        color: #a2a2a2;
+        color: $textColorTitle;
 
         span {
-          color: #fa5b0f;
+          color: $colorBtnAndTitle;
         }
       }
 
       .react {
         font-size: 18px;
         text-transform: uppercase;
-        color: #a2a2a2;
+        color: $textColorTitle;
         margin-bottom: 25px;
 
         span {
-          color: #fa5b0f;
+          color: $colorBtnAndTitle;
         }
       }
 
@@ -47,10 +50,10 @@
         height: 41px;
         border-radius: 50px;
         text-align: center;
-        background: #fa5b0f;
+        background: $colorBtnAndTitle;
         padding: 8px 40px;
         border: none;
-        color: #fff;
+        color: $textColorNav;
         font-size: 15px;
         transition: all .6s ease;
         cursor: pointer;

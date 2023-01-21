@@ -1,5 +1,6 @@
+@import '../../common/sass/variables';
 .contactsBlock {
-  background-color: #222;
+  background-color: $colorMainBg;
   height: 400px;
   @media screen and (max-width: 360px) {
     height: 300px;
@@ -83,7 +84,7 @@
           height: 41px;
           border-radius: 50px;
           text-align: center;
-          background: #fa5b0f;
+          background: $colorBtnAndTitle;
           padding: 8px 40px;
           border: none;
           color: #fff;

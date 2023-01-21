@@ -1,4 +1,4 @@
-import s from '../Project/Project.module.css';
+import s from './Project.module.scss';
 import React from 'react';
 type ProjectPropsType = {
     style: any

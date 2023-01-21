@@ -1,5 +1,6 @@
+@import '../../common/sass/variables';
 .worksBlock {
-  background-color: #222;
+  background-color: $colorMainBg;
 
   .workContainer {
     display: flex;

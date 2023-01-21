@@ -1,8 +1,9 @@
+@import '../../common/sass/variables';
 .header {
   height: 80px;
   display: flex;
   align-items: center;
-  background-color: #000000;
+  background-color: $colorHeaderBg;
 
   .headerContainer {
     align-items: center;

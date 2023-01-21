@@ -1,5 +1,6 @@
+@import '../../common/sass/variables';
 .footerBlock {
-  background-color: #fff;
+  background-color: $footerBg;
   height: 250px;
 
   .footerContainer {
@@ -14,7 +15,7 @@
       justify-content: space-between;
       width: 70%;
       text-align: center;
-      color: #a2a2a2;
+      color: $textColorTitle;
       @media screen and (max-width: 760px) {
         justify-content: center;
       }
@@ -43,7 +44,7 @@
     }
 
     .rightReserved {
-      color: #a2a2a2
+      color: $textColorTitle;
     }
   }
 }

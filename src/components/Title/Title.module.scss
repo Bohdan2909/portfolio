@@ -1,12 +1,13 @@
+@import '../../common/sass/variables';
 .title {
   h2 {
     font-family: 'Poppins', sans-serif;
-    color: #a2a2a2;
+    color:$textColorTitle;
     text-transform: uppercase;
     margin: 30px 0;
 
     span {
-      color: #fa5b0f;
+      color: $colorBtnAndTitle;
     }
   }
 }
