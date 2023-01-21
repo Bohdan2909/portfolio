@@ -1,6 +1,6 @@
 import React from 'react';
-import style from './Skills.module.css'
-import stylesContainer from './../../common/styles/Container.module.css'
+import style from './Skills.module.scss'
+import stylesContainer from '../../common/styles/Container.module.scss'
 import Skill from '../Skill/Skill';
 import {Title} from '../Title/Title';
 import css from '../../assets/css.svg';
@@ -18,7 +18,7 @@ const Skills = () => {
     const javascriptIcon = {backgroundImage: `url(${js})`}
     const typeScriptIcon = {backgroundImage: `url(${typeScript})`}
     return (
-        <div className={style.skillsBlock}>
+        <div id={'skills'} className={style.skillsBlock}>
             <div className={`${stylesContainer.container} ${style.skillsContainer}`}>
                 <Title titleOne={'My'} titleTwo={'skills'}/>
                 <div className={style.skillsItems}>

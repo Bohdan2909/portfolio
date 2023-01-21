@@ -1,0 +1,77 @@
+.mainBlock {
+  background-color: #222;
+  min-height: 60vh;
+  padding: 30px 0;
+  @media screen and (max-width: 360px) and (max-width: 760px) {
+    height: 440px;
+  }
+
+  .wrapper {
+    margin-top: 70px;
+    @media screen and (max-width: 360px) and (max-width: 760px) {
+      margin-top: 10px;
+    }
+    .description {
+      width: 300px;
+      font-size: 16px;
+      line-height: 16px;
+      text-align: center;
+      padding: 10px;
+      margin: 10px 0;
+
+      .name {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        color: #a2a2a2;
+
+        span {
+          color: #fa5b0f;
+        }
+      }
+
+      .react {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #a2a2a2;
+        margin-bottom: 25px;
+
+        span {
+          color: #fa5b0f;
+        }
+      }
+
+      .btnMore {
+        width: 165px;
+        height: 41px;
+        border-radius: 50px;
+        text-align: center;
+        background: #fa5b0f;
+        padding: 8px 40px;
+        border: none;
+        color: #fff;
+        font-size: 15px;
+        transition: all .6s ease;
+        cursor: pointer;
+
+        &:hover {
+          background: #fff;
+          color: #000
+        }
+      }
+    }
+
+    .avatar {
+      .avatarImg {
+        background-position: center;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        /*border-radius:50px;*/
+      }
+    }
+  }
+}
+

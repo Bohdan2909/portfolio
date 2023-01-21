@@ -1,16 +1,16 @@
-import style from './Nav.module.css';
+import style from './Nav.module.scss';
 import React from 'react';
-import styleContainer from './../../../common/styles/Container.module.css'
+import styleContainer from '../../../common/styles/Container.module.scss'
 
 export const Nav = () => {
     return (
 
-            <div className={style.nav}>
-                <a href="src/components/Header/Nav/Nav#">Home</a>
-                <a href="src/components/Header/Nav/Nav#">Skills</a>
-                <a href="src/components/Header/Nav/Nav#">Works</a>
-                <a href="src/components/Header/Nav/Nav#">Contacts</a>
-            </div>
+        <div className={style.nav}>
+            <a href={'/'}>Home</a>
+            <a href={'#skills'}>Skills</a>
+            <a href={'#works'}>Works</a>
+            <a href={'#contacts'}>Contacts</a>
+        </div>
 
 
     );

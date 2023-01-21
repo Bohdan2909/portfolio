@@ -1,5 +1,6 @@
-import style from '../Skills/Skills.module.css';
+// import style from '../Skills/Skills.module.scss';
 import React from 'react';
+import s from'./Title.module.scss'
 
 type TitlePropsType = {
     titleTwo: string
@@ -7,7 +8,7 @@ type TitlePropsType = {
 }
 export const Title = (props: TitlePropsType) => {
     return (
-        <div className={style.title}>
+        <div className={s.title}>
             <h2>{props.titleOne} <span>{props.titleTwo}</span></h2>
         </div>
     )

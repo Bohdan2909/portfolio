@@ -1,6 +1,6 @@
 import React from 'react';
-import s from './Works.module.css'
-import styledContainer from './../../common/styles/Container.module.css'
+import s from './Works.module.scss'
+import styledContainer from '../../common/styles/Container.module.scss'
 import Project from '../Project/Project';
 import {Title} from '../Title/Title';
 import todolist from './../../assets/todolist.png'
@@ -16,13 +16,12 @@ const Works = () => {
 
     }
     return (
-        <div className={s.worksBlock}>
+        <div id={'works'} className={s.worksBlock}>
             <div className={`${styledContainer.container} ${s.workContainer}`}>
                 <Title titleOne={'my'} titleTwo={'works'}/>
                 <div className={s.worksItems}>
                     <Project style={todolistScreen} projectName={'Todolist'}/>
                     <Project style={counterScreen} projectName={'Counter'}/>
-
                 </div>
             </div>
         </div>
